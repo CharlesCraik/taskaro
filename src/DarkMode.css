@@ -1,0 +1,284 @@
+body.dark *{
+    transition: .3s;
+}
+
+body.light *{
+    transition: .3s;
+}
+
+body.dark .content-area {
+    background: #1c1c1c;
+}
+
+body.dark .project-feed-title {
+    background: #262626;
+    color: #fff;
+}
+
+body.dark .project-feed-title span.subheader:before {
+    background: #fff;
+}
+
+body.dark .content-area h1 {
+    color: #fff;
+}
+
+body.dark span.subtitle {
+    color: #464646;
+}
+
+body.dark .page-details-container .subtitle > .project-number {
+    color: #fff;
+}
+
+body.dark li.project-item {
+    background: #262626;
+    color: #fff;
+}
+
+body.dark .project-icon-container {
+    background: #363636;
+}
+
+body.dark .progress-bar-container {
+    background: #464646;
+}
+
+body.dark .project-detail-container {
+    color: #666;
+}
+
+body.dark .project-detail-container > svg path {
+    fill: #666;
+}
+
+body.dark header.sidebar {
+    background: #262626;
+}
+
+body.dark .menu-link {
+    color: #666;
+}
+
+body.dark .menu-link > svg path {
+    fill: #666;
+}
+
+body.dark .menu-link:hover {
+    color: #fff;
+}
+
+body.dark .menu-link:hover > svg path {
+    fill: #fff;
+}
+
+body.dark .app-header:before {
+    background: linear-gradient(45deg, #262626 48%, #80808063);
+}
+
+body.dark .profile-shortcut-container {
+    background: #4c4c4c4d;
+}
+
+body.dark .profile-shortcut-container > svg path{
+    fill: #fff;
+}
+
+body.dark .settings-menu-container {
+    border-color: #464646;
+}
+
+body.dark li.settings-item > span.setting {
+    color: #666;
+}
+
+body.dark li.settings-item > span.setting.active {
+    color: #fff;
+}
+
+body.dark li.settings-item > span.setting.active:before {
+    background: #fff;
+}
+
+body.dark li.settings-item > span.setting:hover {
+    color: #fff;
+}
+
+body.dark .settings-header > h3 {
+    color: #fff;
+}
+
+body.dark p.subtitle {color: #666;}
+
+body.dark span.setting-header {
+    color: #fff;
+}
+
+body.dark .popup-container {
+    background: #363636;
+}
+
+body.dark span.close-popup > svg path {
+    fill: #666;
+}
+
+body.dark span.close-popup:hover > svg path {
+    fill: #fff;
+}
+
+body.dark .popup-header h3 {
+    color: #fff;
+}
+
+body.dark .action-icon-container {
+    background: #526659;
+}
+
+body.dark input.light-input, body.dark select.light-input, body.dark textarea.light-input {
+    background: #464646;
+    color: #fff;
+}
+
+body.dark span.cancel-action {
+    color: #666;
+}
+
+body.dark span.cancel-action:hover {
+    color: #fff;
+}
+
+body.dark .action-container .BTN.primary {
+    background: #464646;
+}
+
+body.dark .action-container .BTN.primary:hover {
+    background: #6ae08b;
+}
+
+body.dark .settings-header{
+    border-color: #464646;
+}
+
+body.dark span.project-options path {
+    fill: #666;
+}
+
+body.dark span.project-options:hover path {
+    fill: #fff;
+}
+
+body.dark .project-options-container, body.dark .task-options-container {
+    background: #262626;
+    box-shadow: 16px 0 8px rgb(18 18 18 / 4%);
+}
+
+body.dark li.project-option:hover {
+    background: #464646;
+}
+
+body.dark span.option > svg > path {
+    fill: #fff;
+}
+
+body.dark span.option.delete-project > svg > path, body.dark span.option.delete-task > svg > path {
+    fill: #f87c74;
+}
+
+body.dark li.project-option.delete-option:hover {
+    background: #624a49;
+}
+
+body.dark section.auth.main-content.row {
+    background: #262626;
+    color: #fff;
+}
+
+body.dark a.auth-link {
+    color: #666;
+}
+
+body.dark li.task-option.delete-option:hover {
+    background: #624a49;
+    transition: .3s;
+}
+
+body.dark li.task-option:hover {
+    background: #464646;
+    transition: .3s;
+    cursor: pointer;
+}
+
+body.dark a.sub-link {
+    color: #666;
+}
+
+body.dark a.sub-link:hover {
+    color: #fff;
+}
+
+body.dark a.auth-link:hover {
+    color: #fff;
+}
+
+body.dark .logo-container {
+    background: #464646;
+}
+
+body.dark li.task-item {
+    background: #262626;
+    color: #fff;
+}
+
+body.dark .task-feed-header > h3 {
+    color: #fff;
+}
+
+body.dark span.tasks-number {
+    color: #fff !important;
+}
+
+body.dark .view-options {
+    background: #262626;
+}
+
+body.dark button.filter-switch.unselected {
+    background: #262626;
+    color: #464646;
+}
+
+body.dark button.filter-switch.unselected > svg > path {
+    fill: #464646;
+}
+
+body.dark .bubble {
+    background: #363636;
+    color: #666;
+}
+
+body.dark span.task-detail {
+    color: #464646;
+}
+
+body.dark .task-deadline > svg > path {
+    fill: #464646;
+}
+
+body.dark span.task-options > svg > path {
+    fill: #464646;
+}
+
+body.dark span.task-options:hover > svg > path {
+    fill: #fff;
+}
+
+body.dark label.marker-container {
+    background: #363636;
+}
+
+body.dark .task-notes-container {
+    color: #666;
+}
+
+body.dark .task-extra-content {
+    border-color: #464646;
+}

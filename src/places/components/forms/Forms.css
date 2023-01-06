@@ -1,0 +1,114 @@
+/* fields */
+input, select, textarea{
+    font-size: 16px;
+    font-family: 'Figtree';
+}
+
+textarea{
+    font-family: 'Figtree';
+    font-size: 16px;
+    color: #262626;
+    line-height: 1.5em;
+    resize: none;
+}
+
+input.light-input, select.light-input, textarea.light-input {
+    background: #f6f8fa;
+    border: 0;
+    padding: 16px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.password-field.no-match {
+    background: #FEE0DE;
+}
+
+span.input-warning-text {
+    margin-top: 4px;
+    font-weight: 500;
+    color: #F87C74;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.create-form label {
+    color: #B1B1B1;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+input.form-select-item.project-color {
+    appearance: unset;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border: solid 2px #f5f5f5;
+    cursor: pointer;
+}
+
+input.form-select-item.project-color:checked {
+    border-color: #fff !important;
+}
+
+/* actions */
+a.sub-link {
+    color: #d9d9d9;
+    display: flex;
+    transition: .3s;
+    font-weight: 500;
+}
+
+a.sub-link:hover{
+    color: #262626;
+    transition: .3s;
+}
+
+span.cancel-action {
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* containers */
+.field-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.field-container:last-child {
+    margin: 0;
+}
+
+.action-container{
+    width: 100%;
+    display: flex;
+}
+
+.field-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.field-row .field-container {
+    margin: 0;
+}
+
+.field-row.name-container > .field-container, .field-row > .field-container {
+    width: 48%;
+}
+
+.field-container.password-container {
+    display: flex;
+    flex-wrap: wrap;
+}
