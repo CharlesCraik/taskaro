@@ -20,6 +20,8 @@ const App = () => {
     //     console.log('Account connected')
     // }, [])
 
+    // new
+
     return(
         <Router>
             <Route path='/' exact>
